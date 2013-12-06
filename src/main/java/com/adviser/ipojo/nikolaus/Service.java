@@ -19,9 +19,9 @@ public class Service {
         System.err.println("Start dem nikolaus sein hund "+rudolf);
     }
     
-    @Modified
-    public void modified() {
-        System.err.println("Modify dem nikolaus sein hund "+rudolf);
+    @Updated
+    public void updated() {
+        System.err.println("Updated dem nikolaus sein hund "+rudolf);
     }
     
     @Invalidate
