@@ -6,5 +6,7 @@ features:install ipojo
 features:install ipojo-command
 features:install ipojo-all
 
+osgi:install -s mvn:com.adviser.ipojo/nikolaus/0.0.1-SNAPSHOT
+
 THX
 @S2

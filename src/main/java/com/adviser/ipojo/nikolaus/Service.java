@@ -1,4 +1,4 @@
-package de.nextaudience.db.datasource.base;
+package com.adviser.ipojo.nikolaus;
 
 import org.apache.felix.ipojo.annotations.Component;
 import org.apache.felix.ipojo.annotations.Invalidate;
@@ -8,7 +8,7 @@ import org.apache.felix.ipojo.annotations.Updated;
 import org.apache.felix.ipojo.annotations.Validate;
 
 
-@Component(name="nikolaus")
+@Component(name="Nikolaus")
 public class Service {
     
     @Property
@@ -19,7 +19,6 @@ public class Service {
         System.err.println("Start dem nikolaus sein hund "+rudolf);
     }
     
-    
     @Modified
     public void modified() {
         System.err.println("Modify dem nikolaus sein hund "+rudolf);
@@ -29,6 +28,4 @@ public class Service {
     public void delete() {
         System.err.println("Stop dem nikolaus sein hund "+rudolf);
     }
-
-    
 }
